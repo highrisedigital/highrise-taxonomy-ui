@@ -85,7 +85,7 @@ function hdtui_taxonomy_radio_meta_box( $post, $box ) {
 
         		<label class="selectit">
         			<input type="radio" name="tax_input[<?php echo $tax_name; ?>][]" value="0">
-        			<?php _e( 'None set', 'highrise-taxonomy-ui' ); ?>
+        			<?php _e( 'None', 'highrise-taxonomy-ui' ); ?>
         		</label>
 
         	</li>
