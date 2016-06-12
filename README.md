@@ -1,4 +1,4 @@
-# highrise-taxonomy-ui
+# Highrise Taxonomy UI
 A WordPress plugin that allows you to register taxonomies with a different UI than the standard checkbox or tag search input.
 
 If you have ever had a taxonomy associated with posts in WordPress but the default taxonomy UI (checkboxes for hierarchical taxonomies and tags input for non-hierarchical taxomnomies) is not appropriate this plugin could help.
