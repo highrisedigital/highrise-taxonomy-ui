@@ -43,5 +43,5 @@ require_once( dirname( __FILE__ ) . '/inc/walkers/walker-radio.php' );
 require_once( dirname( __FILE__ ) . '/inc/meta-boxes/meta-box-radio.php' );
 
 /* load the drodown walker and meta box files */
-require_once( dirname( __FILE__ ) . '/inc/walkers/walker-dropdown.php' );
+//require_once( dirname( __FILE__ ) . '/inc/walkers/walker-dropdown.php' );
 require_once( dirname( __FILE__ ) . '/inc/meta-boxes/meta-box-dropdown.php' );
