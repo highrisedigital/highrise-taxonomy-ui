@@ -9,11 +9,19 @@ One good example here is where you have a taxonomy when only 1 term should be ad
 
 Simply really. When registering your taxonomy using `register_taxonomy` there is an argument you can pass called `meta_box_cb`. This tells WordPress which function to use for rendering the meta box on the post edit screen. This plugin provides two functions that you can reference here.
 
+### Select Input UI
+
+![ScreenShot Select UI](assets/images/screenshot-select-ui.png)
+
 If you want your taxonmoy to have a select input UI then add this into your `register_taxonomy` args.
 
 ```php
 meta_box_cb	=> 'hdtui_taxonomy_dropdown_meta_box'
 ```
+
+### Radio Input UI
+
+![ScreenShot Radio UI](assets/images/screenshot-radio-ui.png)
 
 If you want your taxonmoy to have a radio button UI then add this to your `register_taxonomy` args.
 
